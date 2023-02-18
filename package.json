@@ -1,0 +1,23 @@
+{
+  "name" : "myeasy",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/Anyelber/myeasy"
+  },
+  "version" : "0.0.1",
+  "description" : "NPM Library to use mysql from a easy way.",
+  "main" : "src/MyEasy",
+  "module" : "src/MyEasy",
+  "files" : [
+    "src"
+  ],
+  "author" : "AnySlehider",
+  "license" : "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3"
+  }
+}
