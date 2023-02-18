@@ -4,14 +4,19 @@
     "type" : "git",
     "url" : "https://github.com/Anyelber/myeasy"
   },
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "NPM Library to use mysql from a easy way.",
   "main" : "src/MyEasy",
   "module" : "src/MyEasy",
   "files" : [
     "src"
   ],
-  "author" : "AnySlehider",
+  "author" : {
+    "name" : "Anyelber Boscan",
+    "alias" : "AnySlehider",
+    "email" : "anyslehider@gmail.com",
+    "url" : "https://github.com/Anyelber"
+  },
   "license" : "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",

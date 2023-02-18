@@ -289,4 +289,4 @@ class MyEasy {
   };
 }
 
-module.exports = Model;
+module.exports = MyEasy;
