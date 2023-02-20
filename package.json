@@ -1,25 +1,26 @@
 {
-  "name" : "myeasy",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/Anyelber/myeasy"
+  "name": "myeasy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Anyelber/myeasy"
   },
-  "version" : "0.0.2",
-  "description" : "NPM Library to use mysql from a easy way.",
-  "main" : "src/MyEasy",
-  "module" : "src/MyEasy",
-  "files" : [
+  "version": "0.0.3",
+  "description": "NPM Library to use mysql from a easy way.",
+  "main": "src/MyEasy",
+  "module": "src/MyEasy",
+  "files": [
     "src"
   ],
-  "author" : {
-    "name" : "Anyelber Boscan",
-    "alias" : "AnySlehider",
-    "email" : "anyslehider@gmail.com",
-    "url" : "https://github.com/Anyelber"
+  "author": {
+    "name": "Anyelber Boscan",
+    "alias": "AnySlehider",
+    "email": "anyslehider@gmail.com",
+    "url": "https://github.com/Anyelber"
   },
-  "license" : "ISC",
+  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "myeasymodel": "^0.0.1",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
