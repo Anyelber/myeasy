@@ -33,8 +33,14 @@ class MyEasy {
         select = this.camps.join(",");
       }
 
+      let andorsWhere = "";
+
+      if (this.andors.length >= 0) {
+        andorsWhere = "WHERE";
+      }
+
       this.query = `SELECT ${this.dist} ${select} FROM ${this.table}`;
-      this.query += ` ${this.joins.join(" ")} WHERE ${this.andors.join(
+      this.query += ` ${this.joins.join(" ")} ${andorsWhere} ${this.andors.join(
         "AND"
       )} ${this.ob} ${this.limit}`;
 
@@ -54,8 +60,14 @@ class MyEasy {
         select = this.camps.join(",");
       }
 
+      let andorsWhere = "";
+
+      if (this.andors.length >= 0) {
+        andorsWhere = "WHERE";
+      }
+
       this.query = `SELECT ${this.dist} ${select} FROM ${this.table}`;
-      this.query += ` ${this.joins.join(" ")} WHERE ${this.andors.join(
+      this.query += ` ${this.joins.join(" ")} ${andorsWhere} ${this.andors.join(
         "AND"
       )} ${this.ob} LIMIT 1`;
 
@@ -70,9 +82,14 @@ class MyEasy {
 
   count = () => {
     return new Promise((resolve, reject) => {
+      let andorsWhere = "";
+
+      if (this.andors.length >= 0) {
+        andorsWhere = "WHERE";
+      }
       let select = "count(*) as count";
       this.query = `SELECT ${this.dist} ${select} FROM ${this.table}`;
-      this.query += ` ${this.joins.join(" ")} WHERE ${this.andors.join(
+      this.query += ` ${this.joins.join(" ")} ${andorsWhere} ${this.andors.join(
         "AND"
       )} ${this.ob} ${this.limit}`;
 
