@@ -35,7 +35,7 @@ class MyEasy {
 
       let andorsWhere = "";
 
-      if (this.andors.length >= 0) {
+      if (this.andors.length > 0) {
         andorsWhere = "WHERE";
       }
 
@@ -62,7 +62,7 @@ class MyEasy {
 
       let andorsWhere = "";
 
-      if (this.andors.length >= 0) {
+      if (this.andors.length > 0) {
         andorsWhere = "WHERE";
       }
 
@@ -84,7 +84,7 @@ class MyEasy {
     return new Promise((resolve, reject) => {
       let andorsWhere = "";
 
-      if (this.andors.length >= 0) {
+      if (this.andors.length > 0) {
         andorsWhere = "WHERE";
       }
       let select = "count(*) as count";
