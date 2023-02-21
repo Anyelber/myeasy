@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/Anyelber/myeasy"
   },
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "NPM Library to use mysql from a easy way.",
   "main": "src/MyEasy",
   "module": "src/MyEasy",
@@ -20,7 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "myeasymodel": "^0.0.2",
+    "myeasymodel": "^0.0.3",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
